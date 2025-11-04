@@ -15,7 +15,7 @@ jobs:
     - name: Instalar dependencias
       run: npm install
     - name: Ejecutar pruebas
-      run: npm test
+      run: npm jest
   deploy:
     needs: build
     runs-on: ubuntu-latest
